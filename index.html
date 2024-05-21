@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+       <div class="login_container">
+            <form>
+                <header>
+                    <h1>Login</h1>
+                </header>
+                <div class="username">
+                    <label for="">Username</label>
+                    <input type="text" required>
+                </div>
+                <div class="password">
+                    <label for="">Password</label>
+                    <input type="password" required>
+                </div>
+                <div class="forgot">
+                <a href="">Forgot Password?</a>
+                </div>
+                <button type="submit">Sign In</button>
+                <div class="or">
+                    <span></span>
+                    <div>Or Sign In With</div>
+                    <span></span>
+                </div>
+                <div class="social_media">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+                <h3>Visit Shaastra 2024 Website</h3>
+                <div class="shaastralogo">
+                    <a href="https://shaastra.org/"><img src="data:image/png;base64,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""></a>
+                </div>
+                <div class="sign_up">
+                    Don't Have An Account ? <a href="#">Sign Up</a>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
